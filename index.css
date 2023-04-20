@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* sets width for flexbox */
+header {
+    width: 375px;
+}
+
+/* flexbox for header */
+header section{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 18px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+#logo {
+    height: 34px;
+}
+
+/* creates padding between header
+and main */
+main {
+    padding: 10px 0 0 10px;
+    display: flex;
+    
+}
+/* sets up the full name and location to spec */
+.flex {
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.flex p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.flex h2{
+    margin: 3px 0 0 0;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.users {
+    height: 34px;
+    border-radius: 50%;
+}
+/* posted picture specs */
+.post{
+    height: 375px;
+    width: 375px;
+}
+
+/* interaction buttons specs */
+.interact {
+    width: 23px;
+    margin-right: 20px;
+}
+
+.interact:hover, 
+.interact:focus {
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    margin: -1px 19px -1px -1px;
+    
+}
+
+
+/* likes and comments specs */
+footer section {
+    margin: 21px 10px 0 10px;
+}
+
+footer h3 {
+    font-size: 13px;
+    padding-left: 13px;
+    margin-top: 12px;
+}
+
+.comments {
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 16px;
+    gap: 4px;
+}
